@@ -3,7 +3,7 @@ import mongoose from "mongoose"; //libreria para conectar a la base de datos
 import express from "express"; //libreria para crear el servidor
 import cors from "cors"; //libreria para permitir el acceso a la api desde cualquier origen
 import dotenv from "dotenv"; //libreria para cargar las variables de entorno desde un archivo .env
-import test from "./backend/controllers/alumnos.controllers.js"; //importar el controlador de alumnos
+import test from "./backend/controllers/METROPOLITANA.controllers.js"; //importar el controlador de alumnos
 
 dotenv.config(); //cargar las variables de entorno desde el archivo .env
 mongoose.connect(process.env.url_bd) //conectar a la base de datos
